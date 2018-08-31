@@ -1,0 +1,260 @@
+body{
+	font-family: Arial, sans-serif;
+	background-image: url(../img/pattrengrey.jpg);
+	background-repeat: repeat;
+	background-position: center;
+}
+.main-container{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width:100%;
+	height: 100%;
+}
+.sidebar{
+	float: left;
+	width: 14.8%;
+	height: 100%;
+	background-image: url("../img/buelgray.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 3px 0 10px darkgray;
+}
+.content{
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+.topbar{
+	width: 100%;
+	height: 8.7%;
+	border-bottom: 2px solid #fffc00;
+	box-shadow: 0 0 15px black;
+}
+.contentbar{
+	width: 98%;
+	height: 87%;
+	padding: 13px;	
+}
+button{	
+	padding: 12px 28px;
+	margin: 10px 10px 10px 20px;
+	font-size: 14px;
+	border: none;
+	float: left;
+}
+.red{
+	background-color: red;
+	color: white;
+}
+.orange{
+	background-color: orange;
+	color: white;
+}
+.green{
+	background-color: green;
+	color: white;
+}
+.red:hover{
+	background-color: darkred;
+	color: white;
+}
+.orange:hover{
+	background-color: darkorange;
+	color: white;
+}
+.green:hover{
+	background-color: darkgreen;
+	color: white;
+}
+button[disabled="disabled"]{
+	background-color: darkgray !important;
+}
+.button-sidebar{
+	width: 100%;
+	padding: 20px 0px;
+	text-align: left;
+	background-image: url("../img/sidebuttonblue.jpg");
+	color: white;
+
+}
+.button-sidebar span{
+	margin-left: 10px;
+}
+
+.button-sidebar:hover{
+	background-image: url("../img/aktifbutton.jpg") !important;
+	background-size: cover;
+	cursor: pointer;
+}
+
+.aktif{
+	background-image: url("../img/aktifbutton.jpg") !important;
+	background-size: cover;
+	background-color: gray;
+	color: white;
+}
+
+table{
+	width: 100%;
+}
+th{
+	text-align: center;
+	height: 40px;
+	background-color: brown;
+	font-weight: 2;
+	color: white;
+}
+tr:hover{
+	background-color: lightgray;
+}
+td{
+	padding: 10px 0 10px 10px;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+.background-popup{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.6;
+	display: none;
+}
+.popup{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 1% 10%;
+	width: 80%;
+	height:95%;
+	background-color: white;
+	display: none;
+}
+.popup-delete{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 8% 30%;
+	width: 40%;
+	height:21%;
+	background-color: white;
+	display: none;
+	z-index: 100;
+}
+.popup-close{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 8% 30%;
+	width: 40%;
+	height:50%;
+	background-color: white;
+	display: none;
+	z-index: 100;
+}
+.show{
+	display: block !important;
+
+}
+.popup-header{
+	position: relative;
+	width: 100%;
+	height: 10%;
+	background-color: gray;
+	color: white;	
+}
+.popup-content{
+	position: relative;
+	width: 100%;
+	height: 80%;
+}
+.popup-footer{
+	position: relative;
+	width: 100%;
+	height: 10%;
+	border-top: 1px solid gray;
+}
+.btn-save{
+	float: right;
+	background-color: blue;
+	color: white;
+	margin: 13px 10px 0 0;
+}
+.btn-del-OK, .btn-del-cancel, .btn-close-OK, .btn-close-cancel{
+	float: right;
+	margin: 13px 10px 0 0;
+}
+.btn-save:hover{
+	background-color: darkblue;
+}
+.form-row{
+	padding: 8px;
+}
+.left-form{
+	position: relative;
+	float: left;
+	width: 20%;
+	height: 100%;
+	margin: 0px 10px;
+	padding: 10px;
+}
+.right-form{
+	position: relative;
+	float: left;
+	width: 71%;
+	height: 50px;
+	margin: 0px 10px;
+}
+h2#popup-title{
+	margin: 0;
+	padding: 17px;
+}
+input, select{
+	padding: 5px;
+	font-size: 1em;
+}
+select{
+	width: 200px;
+}
+input[type='text']{
+	width: 50%;
+}
+.del-confirm-text{
+	padding: 30px;
+}
+
+tr.selected{
+	background-color: gray;
+	color: white;
+}
+
+.title-topbar {
+	display: inline-block;
+	margin: 10px 0 0 20px;
+	font-size: 2em;
+	font-family: 'Khula';
+	text-shadow: 1px 1px 10px #94c560;
+}
+
+.fa-button {
+	font-size: 20px;
+	float: right;
+	margin: 8px 21px 0px 0px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.username {
+	font-size: 20px;
+	float: right;
+	margin: 18px 21px 0px 0px;
+}
+
+.title-content {
+	font-size: 1.5em;
+	margin: 10px 0px 20px 5px;
+	float: left;
+}
